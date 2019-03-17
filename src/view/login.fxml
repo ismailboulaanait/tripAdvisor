@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="430.0" prefWidth="700.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="view.LoginController">
+    <stylesheets>
+        <URL value="@login.css" />
+    </stylesheets>
+   <children>
+      <AnchorPane prefHeight="61.0" prefWidth="700.0">
+         <children>
+            <Button fx:id="signin" layoutY="-1.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="350.0" text="SIGN IN" />
+            <Button fx:id="signup" layoutX="350.0" layoutY="-2.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="350.0" text="SIGN UP" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="61.0" prefHeight="370.0" prefWidth="700.0">
+         <children>
+            <Pane fx:id="pan_signin" prefHeight="380.0" prefWidth="700.0" style="-fx-background-color: #cc1b08;" />
+            <Pane fx:id="pan_signup" prefHeight="380.0" prefWidth="700.0" style="-fx-background-color: #0b5bdd;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

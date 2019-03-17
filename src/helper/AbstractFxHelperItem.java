@@ -7,24 +7,24 @@ package helper;
 
 /**
  *
- * @author moulaYounes
+ * @author AIMAD
  */
-public class AbstractHelperItem {
+public class AbstractFxHelperItem {
 
     private String columnName;
     private String attributeName;
 
-    public AbstractHelperItem(String columnName, String attributeName) {
+    public AbstractFxHelperItem(String columnName, String attributeName) {
         this.columnName = columnName;
         this.attributeName = attributeName;
     }
 
-    public AbstractHelperItem(String name) {
+    public AbstractFxHelperItem(String name) {
         this.columnName = name;
         this.attributeName = name;
     }
 
-    public AbstractHelperItem() {
+    public AbstractFxHelperItem() {
     }
 
     public String getColumnName() {
@@ -42,5 +42,4 @@ public class AbstractHelperItem {
     public void setAttributeName(String attributeName) {
         this.attributeName = attributeName;
     }
-
 }
